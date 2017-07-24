@@ -1,0 +1,207 @@
+body {
+  background: #F2F1E8;
+  margin: 0px;
+  color: #131511;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  background: #FFFFFF;
+  width: 100%;
+  padding: .5%;
+
+}
+
+nav {
+  display: inline-flex;
+  width: 100%;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+nav > a {
+  flex-basis: 8%;
+  color: #2B2F26;
+}
+
+#logo {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  padding: 0px 2%;
+
+}
+
+#facitilties {
+  color: #968772;
+}
+
+#community_photo{
+  float: left;
+}
+
+#community_p {
+  display: inline-block;
+}
+
+blockquote {
+  border-left: 5px solid lightgrey;
+  line-height: 2em;
+  padding-left: 1%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  margin: 3%;
+
+}
+h2 {
+  text-align: center;
+  font-size: 3em;
+  margin: 0%;
+}
+
+.community {
+
+width: 65%;
+}
+
+
+
+#roomtogrow {
+  height: 40%;
+  width: 100%;
+}
+
+.facilities_p {
+  float: left;
+  display: inline-block;
+
+}
+
+aside {
+  float: right;
+  display: inline-block;
+}
+
+.thumbnail {
+  height: 15%;
+  width: 10%;
+}
+
+main {
+  height: 60%;
+}
+
+main > section {
+  width: 95%;
+  margin: 1% 2%;
+
+}
+
+figure {
+  margin: 0%;
+}
+
+#active {
+  color: #968772;
+}
+
+#box1 {
+  display: flex;
+  border: 5px solid blue;
+  height:350px;
+  justify-content:space-between;
+
+}
+
+#box2 {
+  display: flex;
+  border: 5px solid blue;
+  height: 250px;
+  justify-content:space-between;
+
+}
+
+.row1 {
+  height: 350px;
+  margin: 0%;
+  padding: 0%;
+}
+
+.row2 {
+  height: 250px;
+  margin: 0%;
+}
+
+#main {
+  width: 900px;
+}
+}
+#picture1 {
+  flex-grow: 4;
+  width: 360px;
+  padding-right: 2%;
+  margin: 0px;
+
+}
+
+#picture2 {
+
+  margin: 0%;
+  padding-right: 2%;
+
+
+}
+
+#picture3 {
+  margin: 0%;
+  flex-shrink: 1.5;
+}
+
+
+#picture4 {
+  padding: 0%;
+  margin: 0%;
+  padding-right: 2%;
+
+}
+
+#picture5 {
+
+  padding: 0%;
+  margin: 0%;
+  padding-right: 2%;
+
+}
+
+#picture6 {
+  flex-grow: 4;
+  padding: 0%;
+  margin: 0%;
+  padding-right: 2%;
+
+}
+
+#picture7 {
+  padding: 0%;
+  margin: 0%;
+
+}
+
+figcaption {
+text-align: justify;
+position: absolute;
+border: 3px solid red;
+bottom: 90px;
+}
+
+/*#about {
+  border-bottom: 5px solid blue;
+  //visibility: hidden;
+}
